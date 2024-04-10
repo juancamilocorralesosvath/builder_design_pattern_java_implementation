@@ -4,8 +4,7 @@ import products.CarType;
 import  components.*;
 import products.Manual;
 
-// con Builder podemos construir productos que no tienen una interfaz en comun
-// en este caso, un manual para cada tipo de carro.
+
 public class CarManualBuilder implements Builder{
     private CarType type;
     private int seats;

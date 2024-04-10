@@ -15,7 +15,7 @@ public class Director {
 
     public void constructCityCar(Builder builder) {
         builder.setCarType(CarType.CITY_CAR);
-        builder.setSeats(2);
+        builder.setSeats(4);
         builder.setEngine(new Engine(1.2, 0));
         builder.setTransmission(Transmission.AUTOMATIC);
         builder.setTripComputer(new TripComputer());
@@ -24,7 +24,7 @@ public class Director {
 
     public void constructSUV(Builder builder) {
         builder.setCarType(CarType.SUV);
-        builder.setSeats(4);
+        builder.setSeats(5);
         builder.setEngine(new Engine(2.5, 0));
         builder.setTransmission(Transmission.MANUAL);
         builder.setGPSNavigator(new GPSNavigator());
